@@ -21,7 +21,7 @@ a:active, a:visited, a:focus {
   text-align: center;
   color: #fff;
   height: 100vh;
-  background: #000 url(../img/bg.png) center center no-repeat;
+  //background: #000 url(../img/bg.png) center center no-repeat;
 }
 
 .main-overlay {
@@ -60,7 +60,7 @@ a:active, a:visited, a:focus {
   position: absolute;
   bottom: 2rem;
   color: #fff;
-  z-index: 4;
+  z-index: 3;
   display: inline-block;
   font-size: 2rem;
   width: 50px;
