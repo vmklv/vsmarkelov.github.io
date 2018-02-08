@@ -2,132 +2,333 @@
 <html lang="ru">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:url" content="">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Владимир Маркелов - верстка сайтов на HTML и CSS">
-  <meta property="og:image" content="">
-  <meta property="og:description" content="Coming Soon">
-  <meta property="og:site_name" content="Портфолио верстальщика">
-  <meta property="article:author" content="Владимир Маркелов">
-  <title>Владимир Маркелов - Портфолио</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="js/bootstrap.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/fontello.css">
   <link rel="stylesheet" href="css/fontello-embedded.css">
-  <link href="css/style.css" rel="stylesheet">
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-  <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <link rel="stylesheet" href="css/style.css">
+  <title>ALBEDO</title>
 </head>
 
 <body>
-  <div class="main parallax-window" data-parallax="scroll" data-image-src="img/bg.png">
-    <div class="main-overlay"></div>
-    <div class="wrapper">
-      <div class="main-header">
-        <h1>Владимир Маркелов</i></h1>
-        <div class="main-line"></div>
-        <p>Верстка на HTML и CSS</p>
+  <div id="bg">
+    <header>
+      <nav>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 logo">
+              <a href="#"><img src="img/logo1.png" alt="ALBEDO"></a>
+            </div>
+            <div class="col-lg-6">
+              <ul class="list-inline menu">
+                <a href="#">
+                  <li>Intro</li>
+                </a>
+                <a href="#">
+                  <li>About me</li>
+                </a>
+                <a href="#">
+                  <li>Portfolio</li>
+                </a>
+                <a href="#">
+                  <li>Clients</li>
+                </a>
+                <a href="#">
+                  <li>Blog</li>
+                </a>
+                <a href="#">
+                  <li>Contacts</li>
+                </a>
+              </ul>
+            </div>
+            <div class="col-lg-3 buy-btn">
+              <a href="#">Buy it now!</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="main">
+      <div class="container">
+        <div class="col-lg-12">
+          <div class="row">
+            <h4>Hi there!</h4>
+          </div>
+          <div class="row">
+            <h1>My Name is <span>Daniel</span></h1>
+          </div>
+          <div class="row">
+            <h3>I’m a Graphic Designer</h3>
+          </div>
+          <div class="row">
+            <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum parum, anteposuerit etiam processus dynamicus.</p>
+          </div>
+          <div class="row">
+            <div class="about-btn">
+              <a href="#about">About Me</a>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <a class="main-down slowly" href="#portfolio"><i class="icon-down"></i></a>
+    </section>
   </div>
-  <div class="portfolio" id="portfolio">
+
+  <section id="about">
     <div class="container">
-      <h2 class="section-header">портфолио</h2>
       <div class="row">
-        <div class="col-md-4">
-          <div class="portfolio-block">
-            <img src="img/portfolio/1.png" alt="work#1">
-            <a data-toggle="modal" data-work='work-1' href="#work">Смотреть работу</a>
-          </div>
+        <div class="col-lg-12">
+          <h4>About me...</h4>
         </div>
-        <div class="col-md-4">
-          <div class="portfolio-block">
-            <img src="img/portfolio/2.png" alt="work#2">
-            <a data-toggle="modal" data-work='work-2' href="#work">Смотреть работу</a>
+      </div>
+      <div class="about-text">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</h2>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="portfolio-block">
-            <img src="img/portfolio/3.png" alt="work#3">
-            <a data-toggle="modal" data-work='work-3' href="#work">Смотреть работу</a>
+          <div class="col-lg-6">
+            <span>Qestigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum est notare quam littera gothica, quam nunc putamus est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta.</span><br><br>
+            <span>Eodem modo typi, qui nunc nobis videntur parum.</span>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="footer">
+    <div class="skils">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-1">
+              <i class="icon-loop"></i>
+            </div>
+            <div class="col-lg-3">
+              <h3>Web Design <br> & User Interface</h3>
+              <p>Investigationes demonstraverunt lectores legere me eum iriure dolor in hendrerit.</p>
+            </div>
+            <div class="col-lg-1">
+              <i class="icon-rocket"></i>
+            </div>
+            <div class="col-lg-3">
+              <h3>Brand Identity</h3>
+              <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum per seacula quarta decima.</p>
+            </div>
+            <div class="col-lg-1">
+              <i class="icon-wrench"></i>
+            </div>
+            <div class="col-lg-3">
+              <h3>HTML Templates <br>& WordPress Themes</h3>
+              <p>Qirum est notare quam littera gothica, quam nunc.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-3">
-          <strong>Владимир Маркелов</strong>
-          <p>Разработка сайтов</p>
-        </div>
-        <div class="col-md-6">
-          <strong>Подпишитесь</strong>
-          <div class="social-links">
-            <a href="http://t.me/vsmarkelov"><i class="icon-telegram"></i></a>
-            <a href="http://instagram.com/vsmarkelov"><i class="icon-instagram"></i></a>
-            <a href="http://twitter.com/vsmarkelov"><i class="icon-twitter"></i></a>
+        <div class="social-links">
+          <div class="col-lg-12">
+            <span>If you like my works Follow me:</span>
+            <a href="#"><i class="icon-facebook"></i></a>
+            <a href="#"><i class="icon-twitter"></i></a>
+            <a href="#"><i class="icon-gplus"></i></a>
+            <a href="#"><i class="icon-linkedin"></i></a>
+            <a href="#"><i class="icon-dribbble"></i></a>
+            <a href="#"><i class="icon-behance"></i></a>
+            <a href="#"><i class="icon-pinterest"></i></a>
+            <a href="#"><i class="icon-instagram"></i></a>
+            <a href="#"><i class="icon-tumblr"></i></a>
+            <a href="#"><i class="icon-youtube-play"></i></a>
           </div>
         </div>
-        <div class="col-md-3">
-          <strong>Напишите мне</strong>
-          <a href="http://t.me/vsmarkelov" class="offer-btn">Заказать сайт</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>Portfolio...</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-12">
+          <h2>I Make Beautiful Things!</h2>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="viewall-btn">
+            <a href="#">View All Projects</a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-
-  <div class="modal fade" id="work" role="dialog">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title">Описание проекта</h4>
+    <div class="portfolio-img">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="img/portfolio1.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-4">
+            <img src="img/portfolio2.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-4">
+            <img src="img/portfolio3.jpg" alt="" class="img-fluid">
+          </div>
         </div>
-        <div class="modal-body">
-
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="img/portfolio4.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-4">
+            <img src="img/portfolio5.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-4">
+            <img src="img/portfolio6.jpg" alt="" class="img-fluid">
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
+  <section id="clients">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>Clients...</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>What Customers Say:</h2>
+        </div>
+      </div>
+      <div class="row">
+        <!-- слайдер -->
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/parallax.min.js"></script>
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+          <img src="./img/logo_1-1.png" alt="">
+        </div>
+        <div class="col-lg-3">
+          <img src="./img/logo_2-1.png" alt="">
+        </div>
+        <div class="col-lg-3">
+          <img src="./img/logo_3-1.png" alt="">
+        </div>
+        <div class="col-lg-3">
+          <img src="./img/logo_4-1.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="blog">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-12">
+          <h4>Blog...</h4>
+        </div>
+        <div class="col-lg-6">
+          <h2>Do Not Miss <br>the Useful Articles</h2>
+          <span>Mirum est notare quam littera gothica, quam nunc parum claram...</span>
+          <div class="row">
+            <div class="blue-block">
+              <h3>6 October</h3>
+              <p>“Eodem modo typi, qui nunc nobis videntur parum clari, sollemnes parum”</p>
+              <span>Johnathan Miller</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="slider-img">
+            <div class="slider-box">
+              <h3>9 October</h3>
+              <h2>Gallery Post Format</h2>
+              <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="boxes">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="box1">
+                <h3>3 September</h3>
+                <h5>Standard Post Format</h5>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="box2">
+                <h3>20 September</h3>
+                <h5>Video Post Format</h5>
+                <i class="icon-play"></i>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="box3">
+                <h3>23 June</h3>
+                <h5>Standard Post Format without Preview Img</h5>
+                <p>Qui nunc nobis videntur parum clari, sollemnes legere.</p>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="box4">
+                <a href="#"><h5>View <br>All Posts</h5></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <script>
-    $(function() {
-      var link = $('a[data-toggle="modal"]');
-      link.on('click', function(event) {
-        var work = $(this).attr('data-work');
-        var modal = $('.modal');
-        modal.find('.modal-body').load(work + '.html');
-      });
-    });
-  </script>
+  <section id="contacts">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>Contacts...</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <h2>Contact Information</h2>
+        </div>
+        <div class="col-lg-6">
+          <h2>Get In Touch</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <p>You can find me here:</p>
+          <p>795 South Park Avenue, Melbourne, Australia</p>
+          <p>Phone: 8 800 567.890.11</p>
+          <p>Monday t Friday from 9.00 am to 8.00 pm EST</p>
+          <p>Saturday from 10.00 am to 6.00 pm EST</p>
+          <p>hello@albedo.com</p>
+          <p>support@albedo.com</p>
+        </div>
+        <div class="col-lg-6">
+          <input type="text" name="name" value="" placeholder="Your Name" class="form-control">
+          <input type="text" name="email" value="" placeholder="Your Email Address" class="form-control">
+          <textarea class="form-control" rows="5"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <a href="#"><i class="icon-twitter"></i></a>
+          <a href="#"><i class="icon-gplus"></i></a>
+          <a href="#"><i class="icon-linkedin"></i></a>
+        </div>
+        <div class="col-lg-6">
+          <a href="" class="btn btn-primary">send</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <script>
-    $(document).ready(function() {
-      $(".slowly").on("click", function(event) {
-        event.preventDefault();
-        var id = $(this).attr('href'),
-        top = $(id).offset().top;
-        $('body,html').animate({scrollTop: top}, 800);
-      });
-    });
-  </script>
 </body>
 
 </html>

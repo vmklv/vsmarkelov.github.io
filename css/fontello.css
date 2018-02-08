@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'fontello';
-  src: url('../font/fontello.eot?61475052');
-  src: url('../font/fontello.eot?61475052#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff2?61475052') format('woff2'),
-       url('../font/fontello.woff?61475052') format('woff'),
-       url('../font/fontello.ttf?61475052') format('truetype'),
-       url('../font/fontello.svg?61475052#fontello') format('svg');
+  src: url('../font/fontello.eot?43463427');
+  src: url('../font/fontello.eot?43463427#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?43463427') format('woff2'),
+       url('../font/fontello.woff?43463427') format('woff'),
+       url('../font/fontello.ttf?43463427') format('truetype'),
+       url('../font/fontello.svg?43463427#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?61475052#fontello') format('svg');
+    src: url('../font/fontello.svg?43463427#fontello') format('svg');
   }
 }
 */
@@ -55,8 +55,17 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-down:before { content: '\e800'; } /* '' */
+.icon-loop:before { content: '\e800'; } /* '' */
+.icon-wrench:before { content: '\e801'; } /* '' */
+.icon-play:before { content: '\e802'; } /* '' */
 .icon-twitter:before { content: '\f099'; } /* '' */
+.icon-facebook:before { content: '\f09a'; } /* '' */
+.icon-gplus:before { content: '\f0d5'; } /* '' */
+.icon-linkedin:before { content: '\f0e1'; } /* '' */
+.icon-rocket:before { content: '\f135'; } /* '' */
+.icon-youtube-play:before { content: '\f16a'; } /* '' */
 .icon-instagram:before { content: '\f16d'; } /* '' */
-.icon-vk:before { content: '\f189'; } /* '' */
-.icon-telegram:before { content: '\f2c6'; } /* '' */
+.icon-tumblr:before { content: '\f173'; } /* '' */
+.icon-dribbble:before { content: '\f17d'; } /* '' */
+.icon-behance:before { content: '\f1b4'; } /* '' */
+.icon-pinterest:before { content: '\f231'; } /* '' */

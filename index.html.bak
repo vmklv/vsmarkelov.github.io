@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fontello.css">
+  <link rel="stylesheet" href="css/fontello-embedded.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>ALBEDO</title>
+</head>
+
+<body>
+  <div class="overlay">
+    <header>
+      <nav>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-2 logo">
+              <img src="img/logo.png" alt="albedo" class="img-responsive">
+            </div>
+            <div class="col-sm-6">
+              <ul class="list-inline menu">
+                <a href="#">
+                  <li>Intro</li>
+                </a>
+                <a href="#">
+                  <li>About me</li>
+                </a>
+                <a href="#">
+                  <li>Portfolio</li>
+                </a>
+                <a href="#">
+                  <li>Clients</li>
+                </a>
+                <a href="#">
+                  <li>Blog</li>
+                </a>
+                <a href="#">
+                  <li>Contacts</li>
+                </a>
+              </ul>
+            </div>
+            <div class="col-sm-3 buy-btn">
+              <a href="#">Buy it now!</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section id="main">
+        <div class="container">
+          <div class="row">
+            <h4 class="hi">Hi there!</h4>
+          </div>
+          <div class="row">
+            <h1>My Name is <span>Daniel</span></h1>
+          </div>
+          <div class="row">
+            <h3>I’m a Graphic Designer</h3>
+          </div>
+          <div class="row">
+            <p class="about">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum parum, anteposuerit etiam processus dynamicus.</p>
+          </div>
+          <div class="row">
+            <div class="about-btn">
+              <a href="#about">About Me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+  </div>
+
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <h4>About me...</h4>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <h3>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</h3>
+        </div>
+        <div class="col-sm-6">
+          <p>Qestigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum est notare quam littera gothica, quam nunc putamus est notare quam littera gothica,
+            quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta. Eodem modo typi, qui nunc nobis videntur parum.</p>
+        </div>
+      </div>
+      <div class="skils">
+      <div class="row">
+        <div class="col-sm-1">
+          <i class="icon-loop"></i>
+        </div>
+        <div class="col-sm-3">
+          <h3>Web Design <br>
+              & User Interface</h3>
+          <p>Investigationes demonstraverunt lectores legere me eum iriure dolor in hendrerit.</p>
+        </div>
+        <div class="col-sm-1">
+          <i class="icon-rocket"></i>
+        </div>
+        <div class="col-sm-3">
+          <h3>Web Design <br>
+              & User Interface</h3>
+          <p>Investigationes demonstraverunt lectores legere me eum iriure dolor in hendrerit.</p>
+        </div>
+        <div class="col-sm-1">
+          <i class="icon-wrench"></i>
+        </div>
+        <div class="col-sm-3">
+          <h3>Web Design <br>
+              & User Interface</h3>
+          <p>Investigationes demonstraverunt lectores legere me eum iriure dolor in hendrerit.</p>
+        </div>
+      </div>
+      </div>
+      <div class="socail">
+        <div class="row">
+
+          <p>If you like my works Follow me:</p>
+          <a href="#"><i class="icon-facebook"></i></a>
+          <a href="#"><i class="icon-twitter"></i></a>
+          <a href="#"><i class="icon-gplus"></i></a>
+          <a href="#"><i class="icon-linkedin"></i></a>
+          <a href="#"><i class="icon-dribble"></i></a>
+          <a href="#"><i class="icon-behance"></i></a>
+          <a href="#"><i class="icon-pinterest"></i></a>
+          <a href="#"><i class="icon-instagram"></i></a>
+          <a href="#"><i class="icon-tumblr"></i></a>
+          <a href="#"><i class="icon-youtube-play"></i></a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="Portfolio">
+    <div class="container">
+      <div class="row">
+        <h4>Potfolio...</h4>
+        <div class="row">
+        <h3>I Make Beautiful Things!</h3>
+      </div>
+      <!-- <div class="row">
+          <img src="../img/portfolio1.jpg" alt="">
+        <div class="col-md-4">
+          <img src="../img/portfolio2.jpg" alt="">
+        </div>
+        <div class="col-md-4">
+          <img src="../img/portfolio3.jpg" alt="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="../img/portfolio4.jpg" alt="">
+        </div>
+        <div class="col-md-4">
+          <img src="../img/portfolio5.jgp" alt="">
+        </div>
+        <div class="col-md-4">
+          <img src="../img/portfolio6.jpg" alt="">
+        </div>
+      </div> -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4"><img src="img/portfolio1.jpg" alt=""></div>
+          <div class="col-sm-4"><img src="img/portfolio2.jpg" alt=""></div>
+          <div class="col-sm-4"><img src="img/portfolio3.jpg" alt=""></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4"><img src="img/portfolio4.jpg" alt=""></div>
+          <div class="col-sm-4"><img src="img/portfolio5.jpg" alt=""></div>
+          <div class="col-sm-4"><img src="img/portfolio6.jpg" alt=""></div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section id="Clients">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h4>Potfolio...</h4>
+          <h3>What Customers Say:</h3>
+          <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius nunc putamus parum claram.</p>
+          <p class="name">Christina Smith</p>
+          <p class="company">Marketing Envato Pty Ltd.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <img src="img/logo_1-1.png" alt="">
+        </div>
+        <div class="col-md-3">
+          <img src="img/logo_1-1.png" alt="">
+        </div>
+        <div class="col-md-3">
+          <img src="img/logo_1-1.png" alt="">
+        </div>
+        <div class="col-md-3">
+          <img src="img/logo_1-1.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Blog...</h3>
+          <h2>Do Not Miss <br>the Useful Articles</h2>
+          <p>Mirum est notare quam littera gothica, quam nunc parum claram...</p>
+          <div class="quoteblock">
+            <p class="data">6 October</p>
+            <p class="quote">“Eodem modo typi, qui nunc nobis videntur parum clari, sollemnes parum”</p>
+            <p class="qname">Johnathan Miller</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="#" alt="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <img src="#" alt="">
+          <img src="#" alt="">
+        </div>
+        <div class="col-md-4">
+          <!-- Standard Post Format without Preview Img -->
+        </div>
+        <div class="col-md-2">
+          <!-- View All Posts -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contacts">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Contacts...</h3>
+          <h2>Contact Information</h2>
+          <p class="contact">You can find me here:</p>
+          797 South Park Avenue, Melbourne, Austalia <br>
+          <p class="contact">Phone:</p>
+          8 800 567.890.11 <br>
+          <p class="contact">Monday t Friday from</p> 9.00 am to 8.00 pm EST
+          <p class="contact">Suturday form</p> 10.00 to 6.00 pm EST <br>
+          <a href="mailto:hello@albedo.com?subject=feedback">hello@albedo.com</a> <br>
+          <a href="mailto:support@albedo.com?subject=feedback">support@albedo.com</a>
+        </div>
+        <div class="form">
+          <h2>Get In Touch</h2>
+          <p>You can contact with me using this form.</p>
+          <div class="col-md-12">
+            <input type="text" name="name" value="Your Name" class="form-control">
+            <input type="text" name="email" value="Your E-mail" class="form-control">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
